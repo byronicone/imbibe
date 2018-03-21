@@ -1,0 +1,24 @@
+{
+  "name": "imbibe",
+  "version": "1.0.0",
+  "description": "A place for saving your favorite beverages.",
+  "main": "StringBuffer.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-start": "node app.js --trace-sync-io"
+  },
+  "author": "Byron Barnes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "helmet": "^3.12.0",
+    "winston": "^2.4.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.4"
+  }
+}
